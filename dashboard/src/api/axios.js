@@ -2,7 +2,7 @@ import axios from "axios";
 import { toast } from "react-toastify";
 
 const api = axios.create({
-  baseURL: "http://localhost:4000/api",
+  baseURL: "https://ex-back-q8nm.vercel.app/api",
 });
 
 // Attach token
